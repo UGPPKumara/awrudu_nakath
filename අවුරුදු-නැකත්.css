@@ -29,6 +29,11 @@
 
 .u-section-1 .u-layout-cell-2 {
   min-height: 458px;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -854,7 +859,7 @@
 
 .u-section-3 .u-layout-cell-1 {
   min-height: 631px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -1104,7 +1109,7 @@
 
   .u-section-3 .u-layout-cell-1 {
     min-height: 100px;
-    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_x: -300px;
   }
 
   .u-section-3 .u-group-elements-1 {
@@ -1485,10 +1490,6 @@
 
   .u-section-4 .u-layout-cell-1 {
     min-height: 311px;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
   }
 
   .u-section-4 .u-image-1 {
@@ -1789,19 +1790,19 @@
 
 @media (max-width: 767px) {
    .u-section-5 {
-    min-height: 522px;
+    min-height: 685px;
   }
 
   .u-section-5 .u-sheet-1 {
-    min-height: 1058px;
+    min-height: 1086px;
   }
 
   .u-section-5 .u-layout-wrap-1 {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
 
   .u-section-5 .u-layout-cell-1 {
-    min-height: 549px;
+    min-height: 494px;
   }
 
   .u-section-5 .u-text-1 {
@@ -1833,8 +1834,8 @@
   }
 
   .u-section-5 .u-image-1 {
-    height: 505px;
-    margin-top: -51px;
+    height: 431px;
+    margin-top: 0;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -1862,6 +1863,7 @@
   }
 
   .u-section-5 .u-text-1 {
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }
@@ -2585,7 +2587,7 @@
   }
 
   .u-section-7 .u-layout-cell-1 {
-    min-height: 477px;
+    min-height: 525px;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
@@ -2593,9 +2595,8 @@
   }
 
   .u-section-7 .u-text-1 {
-    width: 240px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-7 .u-text-2 {
@@ -2882,17 +2883,23 @@
 
 @media (max-width: 767px) {
   .u-section-8 .u-sheet-1 {
-    min-height: 1430px;
+    min-height: 1251px;
+  }
+
+  .u-section-8 .u-layout-wrap-1 {
+    margin-top: 0;
+    width: auto;
   }
 
   .u-section-8 .u-layout-cell-1 {
-    min-height: 788px;
+    min-height: 632px;
     --animation-custom_in-translate_x: 300px;
   }
 
   .u-section-8 .u-image-1 {
     width: 577px;
     height: 521px;
+    margin-top: 55px;
     margin-left: -18px;
     margin-right: -18px;
   }
@@ -2951,8 +2958,9 @@
   }
 
   .u-section-8 .u-text-3 {
-    margin-right: 65px;
-    margin-left: 36px;
+    width: 239px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-8 .u-countdown-1 {
@@ -3243,11 +3251,11 @@
 
 @media (max-width: 575px) {
    .u-section-9 {
-    min-height: 104px;
+    min-height: 355px;
   }
 
   .u-section-9 .u-sheet-1 {
-    min-height: 1045px;
+    min-height: 904px;
   }
 
   .u-section-9 .u-layout-wrap-1 {
@@ -3263,7 +3271,7 @@
   }
 
   .u-section-9 .u-layout-cell-1 {
-    min-height: 624px;
+    min-height: 528px;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
@@ -3615,12 +3623,16 @@
 
 @media (max-width: 575px) {
   .u-section-10 .u-sheet-1 {
-    min-height: 913px;
+    min-height: 1099px;
+  }
+
+  .u-section-10 .u-layout-wrap-1 {
+    margin-top: 0;
+    width: auto;
   }
 
   .u-section-10 .u-layout-cell-1 {
     min-height: 261px;
-    --animation-custom_in-translate_x: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
@@ -3645,15 +3657,17 @@
 
   .u-section-10 .u-text-3 {
     width: 239px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-10 .u-countdown-1 {
-    margin-right: auto;
+    width: 340px;
+    margin-top: 19px;
     margin-left: auto;
+    margin-right: auto;
     padding-left: 34px;
     padding-right: 34px;
-    width: 340px;
   }
 }
