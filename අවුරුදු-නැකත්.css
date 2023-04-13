@@ -1490,6 +1490,7 @@
 
   .u-section-4 .u-layout-cell-1 {
     min-height: 311px;
+    --animation-custom_in-translate_x: -300px;
   }
 
   .u-section-4 .u-image-1 {
@@ -1858,7 +1859,7 @@
   }
 
   .u-section-5 .u-layout-cell-1 {
-    min-height: 595px;
+    min-height: 523px;
     --animation-custom_in-translate_x: 0px;
   }
 
@@ -2940,16 +2941,16 @@
   }
 
   .u-section-8 .u-layout-cell-1 {
-    min-height: 278px;
+    min-height: 365px;
   }
 
   .u-section-8 .u-image-1 {
-    width: 405px;
     height: 310px;
     object-position: 50% 0%;
     --animation-custom_in-translate_x: 0px;
-    margin-left: -32px;
-    margin-right: -32px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-8 .u-layout-cell-2 {
@@ -3292,7 +3293,6 @@
 
   .u-section-9 .u-countdown-1 {
     margin-top: 31px;
-    margin-left: 0;
     padding-left: 34px;
     padding-right: 34px;
   }
